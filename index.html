@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <section id="base_calculator">
+        <section id="calculator_display">
+            <h1>0</h1>
+        </section>
+        <section id="calculator_numpad">
+            <section id="numpad_left">
+                <section id="numpad_up">
+                    <div class="numpad_button" onclick="addMc()">
+                        MC
+                    </div>
+                    <div class="numpad_button" onclick="addMPlus()">
+                        M+
+                    </div>
+                    <div class="numpad_button" onclick="addMMinus()">
+                        M-
+                    </div>
+                    <div class="numpad_button" onclick="addC()">
+                        C
+                    </div>
+                    <div class="numpad_button" onclick="addPM()">
+                        ±
+                    </div>
+                    <div class="numpad_button" onclick="addSlsh()">
+                        /
+                    </div>
+                    <div class="numpad_button" onclick="addSvn()">
+                        7
+                    </div>
+                    <div class="numpad_button" onclick="addEight()">
+                        8
+                    </div>
+                    <div class="numpad_button" onclick="addNine()">
+                        9
+                    </div>
+                    <div class="numpad_button" onclick="addFour()">
+                        4
+                    </div>
+                    <div class="numpad_button" onclick="addFive()">
+                        5
+                    </div>
+                    <div class="numpad_button" onclick="addSix()">
+                        6
+                    </div>
+                    <div class="numpad_button"onclick="addOne()">
+                        1
+                    </div>
+                    <div class="numpad_button" onclick="addTwo()">
+                        2
+                    </div>
+                    <div class="numpad_button" onclick="addThree()">
+                        3
+                    </div>
+                </section>
+                <section id="numpad_down">
+                    <div id="zero" class="numpad_button" onclick="addZero()">
+                        0
+                    </div>
+                    <div class="numpad_button" onclick="addPoint()">
+                        .
+                    </div>
+                </section>
+            </section>
+            <section id="numpad_right">
+                <div class="numpad_button" onclick="addMR()">
+                    MR
+                </div>
+                <div class="numpad_button" onclick="addX()">
+                    X
+                </div>
+                <div class="numpad_button" onclick="addMinus()">
+                    -
+                </div>
+                <div class="numpad_button" onclick="addPlus()">
+                    +
+                </div>
+                <div id="equal" class="numpad_button" onclick="equal()">
+                    =
+                </div>
+            </section>
+        </section>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
